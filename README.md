@@ -43,7 +43,7 @@ The project will only have a `.json` file that consists of the project's backend
 
         "gen_portal": false,
     },
-    
+
     "sections": [
         {
             "section_name": "",
@@ -77,15 +77,13 @@ The project will only have a `.json` file that consists of the project's backend
 ```
 
 ## Tech Stack
-This application will be split into two parts.
+This application will be split into two but will share the following technologies:
 
-### Front End
+- Node.js
 - Electron.js
 - HTML
 - Javascript
 - CSS
-
-### Back End
 - Python
 - Bash
 - Vagrant (For testing purposes)
@@ -103,8 +101,8 @@ This list is for me to keep track of my tasks.
 - [ ] Execute backend application via system calls
 
 ### Backend tasks
-- [ ] Parse and test JSON template
-- [ ] Create SQL dump
+- [ ] Parse and test JSON template as input
+- [ ] Create SQL dump and export file
 - [ ] Automatically create tables in SQL database
 - [ ] Generate API based on language and framework
 - [ ] Generate Web Portal with CRUD functionalities
