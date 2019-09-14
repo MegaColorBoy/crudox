@@ -42,7 +42,7 @@ The project will only have a `.json` file that consists of the project's backend
          },
 
         "gen_portal": false,
-    }
+    },
     
     "sections": [
         {
