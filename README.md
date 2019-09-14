@@ -25,7 +25,7 @@ The project will only have a `.json` file that consists of the project's backend
         "version": "",
         
         "api_config": {
-            "is_gen": boolean,
+            "is_gen": false,
             "framework": "",
         },
 
@@ -33,42 +33,42 @@ The project will only have a `.json` file that consists of the project's backend
             "db_connector": "",
             "db_hostname": "",
             "schema_name": "",
-            "is_schema_exists": boolean,
-            "connect_to_db": boolean,
+            "is_schema_exists": false,
+            "connect_to_db": false,
             "username": "",
             "password": "",
-            "gen_tables": boolean,
-            "gen_dump": boolean,
+            "gen_tables": false,
+            "gen_dump": false,
          },
 
-        "gen_portal": boolean,
+        "gen_portal": false,
     }
     
     "sections": [
         {
             "section_name": "",
             "table_name": "",
-            "is_table_exists": boolean,
+            "is_table_exists": false,
             "fields": [
                 {
                     "field_name": "",
                     "data_type": "",
                     "ui_label": "",
                     "el_type": "",
-                    "is_editable": boolean,
-                    "is_pk": boolean,
+                    "is_editable": false,
+                    "is_pk": false,
                     "fk_info": {
-                        "is_fk": boolean,
+                        "is_fk": false,
                         "rel_tbl": "",
                     },
                 },
                 {...}
             ],
             "options": {
-                "create": boolean,
-                "read": boolean,
-                "update": boolean,
-                "delete": boolean,
+                "create": false,
+                "read": false,
+                "update": false,
+                "delete": false,
             },
         },
         {...}
